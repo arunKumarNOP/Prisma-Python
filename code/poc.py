@@ -8,6 +8,7 @@ import sys
 import imghdr
 import time
 from Tkinter import Tk
+from PIL import Image
 from tkFileDialog import askopenfilename
 
 def getSecret():
@@ -101,6 +102,9 @@ def progressBar(value, endvalue, bar_length=20):
 
 def main():
 	filename = chooseImage()
+	im = Image.open(filename)
+	rgb_im = im.convert('RGB')
+	rgb_im.save('temp.jpg')
 	styles_arr = getStyles()
 	uid = uploadImage(filename)
 	if uid is not None:
