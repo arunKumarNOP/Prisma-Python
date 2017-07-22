@@ -223,12 +223,17 @@ The above API call returns the modified image.
 To run the python script you need few things installed.
 
 Python2.7	- https://www.python.org/download/releases/2.7/<br>
-requests module - https://github.com/requests/requests
 
-You can also install requests using pip
+For additional modules just move to directory 'code', and
 
 <pre>
-pip install requests
+pip install requirements.txt
+</pre>
+
+Next, you can run the script as 
+
+<pre>
+python poc.py
 </pre>
 
 ### Disclaimer
