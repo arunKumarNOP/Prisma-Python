@@ -224,6 +224,12 @@ To run the python script you need few things installed.
 
 Python2.7	- https://www.python.org/download/releases/2.7/<br>
 
+If Tkinter is not available, you might need to install it manually. For Ubuntu 
+
+<pre>
+sudo apt-get install python-tk
+</pre>
+
 For additional modules just move to directory 'code', and
 
 <pre>
@@ -240,5 +246,5 @@ python poc.py
 This is for education purposes for someone who wish to learn how to bypass SSL Pinning and to understand how to analyse app's requests. I should not be held responsible for misusage of the script or damage caused because of it. Use it at your own risk.
 
 ### Authors
-Arun Kumar Shreevastava<br>
-Sarbajit Saha
+[Arun Kumar Shreevastava](https://github.com/arunKumarNOP)<br>
+[Sarbajit Saha](https://github.com/sarbajitsaha)
