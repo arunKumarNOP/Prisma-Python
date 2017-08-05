@@ -215,7 +215,7 @@ prisma-device-id: 7593facedeadb33f
 Host: api4.neuralprisma.com
 ```
 
-Here "<b>s_line</b>" is the style name, the whole list can be retrived using another API call, look in python script how thats retrieved.
+Here "<b>s_line</b>" is the style name, the whole list can be retrived using another API call.
 
 The above API call returns the modified image.
 
